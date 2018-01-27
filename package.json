@@ -1,29 +1,25 @@
 {
-    "title": "Resume",
-    "name": "startbootstrap-resume",
-    "version": "4.0.0",
-    "description": "Resume is a simple, yet elegant resume and CV theme for Bootstrap 4.",
+    "title": "orvisevans.com",
+    "name": "orvisevans.com",
+    "version": "1.0.0",
+    "description": "Resume and Portfolio for Orvis Evans",
     "keywords": [
-        "css",
-        "sass",
-        "html",
-        "responsive",
-        "theme",
-        "template"
+        "resume",
+        "portfolio"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/resume",
+    "homepage": "http://orvisevans.com",
     "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-resume/issues",
+        "url": "https://github.com/orvisevans/orvisevans.com/issues",
         "email": "feedback@startbootstrap.com"
     },
     "license": "MIT",
-    "author": "Start Bootstrap",
+    "author": "orvis evans",
     "contributors": [
-        "David Miller (http://davidmiller.io/)"
+        "Orvis Evans (http://orvisevans.com/)"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-resume.git"
+        "url": "https://github.com/orvisevans/orvisevans.com.git"
     },
     "dependencies": {
         "bootstrap": "4.0.0",
@@ -32,12 +28,6 @@
         "simple-line-icons": "^2.4.1"
     },
     "devDependencies": {
-        "browser-sync": "2.23.5",
-        "gulp": "^3.9.1",
-        "gulp-clean-css": "3.9.2",
-        "gulp-header": "2.0.1",
-        "gulp-rename": "^1.2.2",
-        "gulp-sass": "^3.1.0",
-        "gulp-uglify": "3.0.0"
+        "browser-sync": "^2.23.6"
     }
 }
