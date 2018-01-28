@@ -29,5 +29,8 @@
     },
     "devDependencies": {
         "browser-sync": "^2.23.6"
+    },
+    "scripts": {
+        "serve": "./node_modules/.bin/browser-sync -f '.'"
     }
 }
