@@ -8,7 +8,7 @@ html(lang='en')
         meta(name='description', content='')
         meta(name='author', content='')
 
-        title Resume - Start Bootstrap Theme
+        title Resume - Orvis Evans
 
         link(rel='icon', type='image/x-icon', href='assets/img/favicon.ico')
 
@@ -27,7 +27,7 @@ html(lang='en')
         // Navigation
         nav#sideNav.navbar.navbar-expand-lg.navbar-dark.bg-primary.fixed-top
             a.navbar-brand.js-scroll-trigger(href='#page-top')
-                span.d-block.d-lg-none Clarence Taylor
+                span.d-block.d-lg-none Orvis Evans
                 span.d-none.d-lg-block
                     img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src='assets/img/profile.jpg', alt='')
             button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
@@ -37,15 +37,13 @@ html(lang='en')
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#about') About
                     li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#portfolio') Portfolio
+                    li.nav-item
                         a.nav-link.js-scroll-trigger(href='#experience') Experience
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#education') Education
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#skills') Skills
-                    li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#interests') Interests
-                    li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#awards') Awards
 
         // Page Content
         .container-fluid.p-0
@@ -54,24 +52,119 @@ html(lang='en')
             section#about.resume-section
                 .resume-section-content
                     h1.mb-0
-                        | Clarence 
-                        span.text-primary Taylor
+                        | Orvis
+                        span.text-primary Evans
                     .subheading.mb-5
-                        | 3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 · 
-                        a(href='mailto:name@email.com') name@email.com
+                        | Portland, OR · (919) 883-5015 ·
+                        a(href='mailto:b.orvis@gmail.com') b.orvis@gmail.com
+                    p.lead.mb-3
+                        | Coming from a non-traditional developer background of large-scale art and entertainment, I solve complex technical problems. I built a drive-by-wire system for a 36,000lb raver Art Car. I developed a Python front end application to act as a wireless automation control hub for a 40 ft long autonomous roving light up water dragon in Macau. I developed a Node.js server that receives 3d animation files and translates the data into control instructions for a 10,000lb dancing toucan. My work is in 6 countries. I've represented employers overseas while training operators with language barriers, little technical knowledge, and multiple standards.
                     p.lead.mb-5
-                        | I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
+                        | It a time of Covid19, I'm focusing on digital work that can reach out through our collective isolation and make the world better.
                     .social-icons
-                        a.social-icon(href='#')
+                        a.social-icon(href='https://www.linkedin.com/in/orvisevans/', target='blank')
                             i.fab.fa-linkedin-in
-                        a.social-icon(href='#')
+                        a.social-icon(href='https://github.com/orvisevans/', target='blank')
                             i.fab.fa-github
-                        a.social-icon(href='#')
-                            i.fab.fa-twitter
-                        a.social-icon(href='#')
-                            i.fab.fa-facebook-f
 
             hr.m-0
+
+            // Portfolio
+            section#portfolio.resume-section
+                .resume-section-content
+                    h2.mb-5 Portfolio
+
+                    .row.mb-5
+                        .col-xl-4.col-md-6.portfolio-item.mb-3
+                            .card.h100
+                                a(href='http://storyslamsingapore.com/', target='_blank')
+                                    img.card-img-top(
+                                        src='assets/img/Story_Slam_Singapore-700x400.png'
+                                        alt="Story Slam Singapore"
+                                    )
+                                .card-body
+                                    h4.card-title
+                                        a(href='http://storyslamsingapore.com', target='_blank') Story Slam Singapore
+                                    p.card-text
+                                        | Singapore's largest monthly recurring storytelling event. Managed Wordpress site with customized theme.
+                                        
+                        .col-xl-4.col-md-6.portfolio-item.mb-3
+                            .card.h100
+                                a(href='http://invisiblespectrumstories.com/', target='_blank')
+                                    img.card-img-top(
+                                        src='assets/img/Invisible_Spectrum_Stories-700x400.png'
+                                        alt="Invisible Spectrum Stories"
+                                    )
+                                .card-body
+                                    h4.card-title
+                                        a(href='http://invisiblespectrumstories.com', target='_blank') Invisible Spectrum Stories
+                                    p.card-text
+                                        | Storytelling series in Portland, OR focused on giving a voice to people of color. Managed Wordpress site with customized theme.
+                                        
+                        .col-xl-4.col-md-6.portfolio-item.mb-3
+                            .card.h100
+                                a(href='https://codepen.io/orvis/full/ZQYXvV', target='_blank')
+                                    img.card-img-top(
+                                        src='assets/img/Pomodoro-700x400.png'
+                                        alt="Pomodoro Clock"
+                                    )
+                                .card-body
+                                    h4.card-title
+                                        a(href='https://codepen.io/orvis/full/ZQYXvV', target='_blank') Pomodoro Clock
+                                    p.card-text
+                                        | Scratch-built HTML / CSS / JS Pomodoro clock.
+                                        
+                        .col-xl-4.col-md-6.portfolio-item.mb-3
+                            .card.h100
+                                a(href='https://codepen.io/orvis/full/VeKoKw/', target='_blank')
+                                    img.card-img-top(
+                                        src='assets/img/Markdown-700x400.png'
+                                        alt="Markdown Previewer"
+                                    )
+                                .card-body
+                                    h4.card-title
+                                        a(href='https://codepen.io/orvis/full/VeKoKw/', target='_blank') Markdown Previewer
+                                    p.card-text
+                                        | Scratch-built HTML / CSS / JS Markdown Previewer.
+                                        
+                        .col-xl-4.col-md-6.portfolio-item.mb-3
+                            .card.h100
+                                a(href='https://codepen.io/orvis/full/jWRrXP', target='_blank')
+                                    img.card-img-top(
+                                        src='assets/img/Roguelike-700x400.png'
+                                        alt="Roguelike Game"
+                                    )
+                                .card-body
+                                    h4.card-title
+                                        a(href='https://codepen.io/orvis/full/jWRrXP', target='_blank') Roguelike Game
+                                    p.card-text
+                                        | Scratch-built HTML / CSS / JS Roguelike game.
+                                        
+                        .col-xl-4.col-md-6.portfolio-item.mb-3
+                            .card.h100
+                                a(href='https://orvis-fcc-url-shortener.glitch.me/', target='_blank')
+                                    img.card-img-top(
+                                        src='assets/img/Url_Shortener-700x400.png'
+                                        alt="Url Shortener"
+                                    )
+                                .card-body
+                                    h4.card-title
+                                        a(href='https://orvis-fcc-url-shortener.glitch.me/', target='_blank') URL Shortener
+                                    p.card-text
+                                        | Scratch-built JS Microservice that shortens URLs.
+                                        
+                        .col-xl-4.col-md-6.portfolio-item.mb-3
+                            .card.h100
+                                a(href='https://oe-fcc-pinterest.herokuapp.com/', target='_blank')
+                                    img.card-img-top(
+                                        src='assets/img/Pinterest-700x400.png'
+                                        alt="Pinterest Clone"
+                                    )
+                                .card-body
+                                    h4.card-title
+                                        a(href='https://oe-fcc-pinterest.herokuapp.com/', target='_blank') Pinterest Clone
+                                    p.card-text
+                                        | Scratch-built Pinterest Clone.
 
             // Experience
             section#experience.resume-section
@@ -80,41 +173,24 @@ html(lang='en')
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
-                            h3.mb-0 Senior Web Developer
-                            .subheading.mb-3 Intelitec Solutions
+                            h3.mb-0 Electro Mechanical Designer
+                            .subheading.mb-3 Michael Curry Design
                             p
-                                | Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+                                | Researched, designed, purchased, wired, developed, coded, and fabricated complex electronic systems and applications for large scale puppets, animatronics and lighting installations for Disney, Wynn, Universal Studios, Broadway, and others.
                         .flex-shrink-0
-                            span.text-primary March 2013 - Present
+                            span.text-primary 2014 - 2020
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
-                            h3.mb-0 Web Developer
-                            .subheading.mb-3 Intelitec Solutions
+                            h3.mb-0 Technical Costume Supervisor
+                            .subheading.mb-3 Universal Studios Singapore
                             p
-                                | Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+                                | Oversaw a team of technical costume and puppetry maintenance personnel while creating electronic systems for tracking, accountability, and inventory management and ordering.
                         .flex-shrink-0
-                            span.text-primary December 2011 - March 2013
-
-                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
-                        .flex-grow-1
-                            h3.mb-0 Junior Web Designer
-                            .subheading.mb-3 Shout! Media Productions
-                            p
-                                | Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.
-                        .flex-shrink-0
-                            span.text-primary July 2010 - December 2011
-
-                    .d-flex.flex-column.flex-md-row.justify-content-between
-                        .flex-grow-1
-                            h3.mb-0 Web Design Intern
-                            .subheading.mb-3 Shout! Media Productions
-                            p
-                                | Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.
-                        .flex-shrink-0
-                            span.text-primary September 2008 - June 2010
+                            span.text-primary 2014 - 2014
 
             hr.m-0
+
 
             // Education
             section#education.resume-section
@@ -123,20 +199,53 @@ html(lang='en')
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
-                            h3.mb-0 University of Colorado Boulder
-                            .subheading.mb-3 Bachelor of Science
-                            div Computer Science - Web Development Track
-                            p GPA: 3.23
+                            h3.mb-0 Free Code Camp
+                            .subheading.mb-3 Multiple Certifications
+                            ul.fa-ul
+                                li
+                                    span.fa-li
+                                        i.fas.fa-certificate
+                                    a(
+                                        href='https://www.freecodecamp.org/certification/orvisevans/front-end-libraries'
+                                        target='_blank'
+                                    ) Front-End Libraries 
+                                li
+                                    span.fa-li
+                                        i.fas.fa-certificate
+                                    a(
+                                        href='https://www.freecodecamp.org/certification/orvisevans/javascript-algorithms-and-data-structures'
+                                        target='_blank'
+                                    ) Javascript Algorithms and Data Structures
+                                li
+                                    span.fa-li
+                                        i.fas.fa-certificate
+                                    a(
+                                        href='https://www.freecodecamp.org/certification/orvisevans/legacy-front-end'
+                                        target='_blank'
+                                    ) Legacy Front-End
+                                li
+                                    span.fa-li
+                                        i.fas.fa-certificate
+                                    a(
+                                        href='https://www.freecodecamp.org/certification/orvisevans/legacy-back-end'
+                                        target='_blank'
+                                    ) Legacy Back-End
                         .flex-shrink-0
-                            span.text-primary August 2006 - May 2010
+                            span.text-primary 2017 - 2020
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 University of North Carolina at Chapel Hill
+                            .subheading.mb-3 Bachelor of the Arts - Dramatic Arts
+                        .flex-shrink-0
+                            span.text-primary 2006 - 2010
 
                     .d-flex.flex-column.flex-md-row.justify-content-between
                         .flex-grow-1
-                            h3.mb-0 James Buchanan High School
-                            .subheading.mb-3 Technology Magnet Program
-                            p GPA: 3.56
+                            h3.mb-0 North Carolina School of Science and Math
+                            .subheading.mb-3 Science and Math Residential Magnet Program
                         .flex-shrink-0
-                            span.text-primary August 2002 - May 2006
+                            span.text-primary 2004 - 2006
 
             hr.m-0
 
@@ -153,21 +262,15 @@ html(lang='en')
                         li.list-inline-item
                             i.fab.fa-js-square
                         li.list-inline-item
-                            i.fab.fa-angular
-                        li.list-inline-item
                             i.fab.fa-react
                         li.list-inline-item
                             i.fab.fa-node-js
                         li.list-inline-item
                             i.fab.fa-sass
                         li.list-inline-item
-                            i.fab.fa-less
-                        li.list-inline-item
                             i.fab.fa-wordpress
                         li.list-inline-item
-                            i.fab.fa-gulp
-                        li.list-inline-item
-                            i.fab.fa-grunt
+                            i.fab.fa-git
                         li.list-inline-item
                             i.fab.fa-npm
                     .subheading.mb-3 Workflow
@@ -176,75 +279,8 @@ html(lang='en')
                             span.fa-li
                                 i.fas.fa-check
                             | Mobile-First, Responsive Design
-                        li
-                            span.fa-li
-                                i.fas.fa-check
-                            | Cross Browser Testing & Debugging
-                        li
-                            span.fa-li
-                                i.fas.fa-check
-                            | Cross Functional Teams
-                        li
-                            span.fa-li
-                                i.fas.fa-check
-                            | Agile Development & Scrum
 
             hr.m-0
-
-            // Interests
-            section#interests.resume-section
-                .resume-section-content
-                    h2.mb-5 Interests
-                    p
-                        | Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.
-                    p.mb-0
-                        | When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.
-
-            hr.m-0
-
-            // Awards
-            section#awards.resume-section
-                .resume-section-content
-                    h2.mb-5 Awards & Certifications
-                    ul.fa-ul.mb-0
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | Google Analytics Certified Developer
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | Mobile Web Specialist - Google Certification
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 1
-                            sup st 
-                            | Place - University of Colorado Boulder - Emerging Tech Competition 2009
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 1
-                            sup st 
-                            | Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 2
-                            sup nd 
-                            | Place - University of Colorado Boulder - Emerging Tech Competition 2008
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 1
-                            sup st 
-                            | Place - James Buchanan High School - Hackathon 2006
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 3
-                            sup rd 
-                            | Place - James Buchanan High School - Hackathon 2005
 
         // Bootstrap core JS
         script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js')
